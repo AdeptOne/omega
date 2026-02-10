@@ -1,0 +1,6 @@
+@Omega.Api_HostAddress = http://localhost:5217
+
+GET {{Omega.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
