@@ -1,0 +1,6 @@
+@Omega.QuantiX.Core_HostAddress = http://localhost:5145
+
+GET {{Omega.QuantiX.Core_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
