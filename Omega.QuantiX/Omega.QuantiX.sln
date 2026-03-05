@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omega.QuantiX.Core", "Omega.QuantiX.Core\Omega.QuantiX.Core.csproj", "{BDB20D50-EDA9-4310-80A0-9CCDE89C3711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omega.QuantiX.Domain", "Omega.QuantiX.Domain\Omega.QuantiX.Domain.csproj", "{605E14C6-63F7-4231-9274-44EB7A6C071A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omega.QuantiX.Infrastructure.Postgres", "Omega.QuantiX.Infrastructure.Postgres\Omega.QuantiX.Infrastructure.Postgres.csproj", "{A42EB59D-92B7-4504-87A5-B75F096BC742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omega.QuantiX.Infrastructure.Redis", "Omega.QuantiX.Infrastructure.Redis\Omega.QuantiX.Infrastructure.Redis.csproj", "{04286E86-78C0-4470-A9D8-CD577C86A28C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDB20D50-EDA9-4310-80A0-9CCDE89C3711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB20D50-EDA9-4310-80A0-9CCDE89C3711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB20D50-EDA9-4310-80A0-9CCDE89C3711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB20D50-EDA9-4310-80A0-9CCDE89C3711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605E14C6-63F7-4231-9274-44EB7A6C071A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605E14C6-63F7-4231-9274-44EB7A6C071A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605E14C6-63F7-4231-9274-44EB7A6C071A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605E14C6-63F7-4231-9274-44EB7A6C071A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42EB59D-92B7-4504-87A5-B75F096BC742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42EB59D-92B7-4504-87A5-B75F096BC742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42EB59D-92B7-4504-87A5-B75F096BC742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42EB59D-92B7-4504-87A5-B75F096BC742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04286E86-78C0-4470-A9D8-CD577C86A28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04286E86-78C0-4470-A9D8-CD577C86A28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04286E86-78C0-4470-A9D8-CD577C86A28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04286E86-78C0-4470-A9D8-CD577C86A28C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
