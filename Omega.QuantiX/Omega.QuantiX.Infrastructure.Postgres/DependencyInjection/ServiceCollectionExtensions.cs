@@ -11,7 +11,9 @@ public static class ServiceCollectionExtensions
     {
         services.AddDbContext<ProductsContext>(options =>
         {
-            options.UseNpgsql(configuration.GetConnectionString("Postgres:Products"));
+            options
+                .UseNpgsql(configuration.GetConnectionString("Postgres:Products"))
+                .UseSnakeCaseNamingConvention();
         });
         
         return services;
